@@ -8,7 +8,6 @@ const PORT = 3000;
 const app = express();
 
 app.use(logger("dev"));
-
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -17,7 +16,8 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 // routes
