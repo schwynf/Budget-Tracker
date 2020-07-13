@@ -38,8 +38,8 @@ This is a budget tracker application. The information is stored in a MongoDB dat
 | `express` | [Express](https://www.npmjs.com/package/express) |
 | `mongoose` | [Mongoose](https://www.npmjs.com/package/mongoose) |
 | `compression` | [Compression](https://www.npmjs.com/package/compression) |
-| `morgan` | [Compression](https://www.npmjs.com/package/morgan) |
-| `lite-server` | [Compression](https://www.npmjs.com/package/lite-server) |
+| `morgan` | [Morgan](https://www.npmjs.com/package/morgan) |
+| `lite-server` | [Lite-server](https://www.npmjs.com/package/lite-server) |
 ## Heroku Deployment <span id="heroku"></span> 
 
 This project is deployed on Heroku. The link to web app is:
